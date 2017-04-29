@@ -1,7 +1,5 @@
-A=[7 4 3 8;0 1 2 5;0 0 1 7;0 0 0 5];
-b=[2 3 7 10];
-risultato=sistemi_triangolari_indietro(A,b);
-function x=sistemi_triangolari_indietro(A, b)
+
+function x=sistemi_triangolari(A, b)
     n = length(b);
     %controlli sull'input
     if(n~=length(A))
